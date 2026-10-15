@@ -1,13 +1,13 @@
 {% set name = "sudachidict-small" %}
-{% set version = "20260116" %}
+{% set version = "20261015" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: a7787a11b8222ceddc0b22fdbb03fcfd5aaf75af92df92375aa6b882c5e58ec8
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 815f893d2e746fd1a9304bcaa4318759d638fd192e7cbbc54c9672ccafbc0d48
 
 build:
   noarch: python
